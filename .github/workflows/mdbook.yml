@@ -27,7 +27,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook
